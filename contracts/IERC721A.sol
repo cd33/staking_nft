@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-// ERC721A Contracts v4.0.0
+// ERC721A Contracts v4.1.0
 // Creator: Chiru Labs
 
 pragma solidity ^0.8.4;
@@ -72,6 +72,11 @@ interface IERC721A {
      * The `quantity` minted with ERC2309 exceeds the safety limit.
      */
     error MintERC2309QuantityExceedsLimit();
+
+    /**
+     * The `extraData` cannot be set on an unintialized ownership slot.
+     */
+    error OwnershipNotInitializedForExtraData();
 
     struct TokenOwnership {
         // The address of the owner.
@@ -269,3 +274,4 @@ interface IERC721A {
      * as defined in the ERC2309 standard. See `_mintERC2309` for more details.
      */
     event ConsecutiveTransfer(uint256 indexed fromTokenId, uint256 toTokenId, address indexed from, address indexed to);
+}

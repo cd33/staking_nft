@@ -1,0 +1,4 @@
+# Rinkeby Testnet
+StakingERC20: [0x051A663E7c714E8F686E28A4c9fe04Bc87138065](https://rinkeby.etherscan.io/address/0x051A663E7c714E8F686E28A4c9fe04Bc87138065)  
+StakingERC721A: [0x723e2139e288Ab83f3D744Dd9dA4e7A4fE53F65a](https://rinkeby.etherscan.io/address/0x723e2139e288Ab83f3D744Dd9dA4e7A4fE53F65a)  
+NFTStaking: [0x807DFA78cBfa92e6B35549d9B5468241214070da](https://rinkeby.etherscan.io/address/0x807DFA78cBfa92e6B35549d9B5468241214070da)
