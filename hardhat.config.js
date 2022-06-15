@@ -7,7 +7,7 @@ require("@nomiclabs/hardhat-etherscan");
  */
  module.exports = {
   paths: {
-    artifacts: './client/src/artifacts',
+    artifacts: './artifacts',
   },
   solidity: {
     version: "0.8.7",
